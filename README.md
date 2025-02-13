@@ -27,7 +27,6 @@ Developed a **responsive website** to support disaster victims by providing esse
 ### ⚙️ Back-End  
 - **PHP**: Handled **server-side logic** and **dynamic content generation**.  
 - **SQL**: Managed **database storage** for user data and emergency resources.  
-- **APIs**: Integrated **real-time data sources** for location tracking.  
 
 ---
 
