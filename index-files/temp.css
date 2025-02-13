@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo {
+    width: 120px;
+    height: 80px;
+}
+
+.navbar-nav button {
+    margin-right: 10px; /* Spacing between buttons */
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.navbar-nav button a {
+    color: #323f4b;
+    font-family: "Roboto";
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav button a:hover {
+    color: #d0b200;
+    font-weight: bold;
+}
+
+.banner-section-bg-container {
+    background-image: url('images/pexels-pixabay-60013.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #b89700;
+}
+
+.custom-outline-button {
+    color: white;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-outline-button:hover {
+    border-color: #b89700;
+    color: white;
+    background-color: #b89700;
+}
+
+
+
+/* Disaster Box Styling */
+.disaster-box {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-bottom: 10px;
+}
+
+.disaster-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.disaster-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.disaster-title {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 15px 0 5px;
+}
+
+.disaster-info {
+    font-size: 14px;
+    color: #555;
+    margin: 0 10px;
+    line-height: 1.5;
+}
+
+
+/* Earthquake styling */
+/* Section Heading Style */
+.section-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Disaster Details */
+.disaster-details h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #d0b200;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.disaster-details p,
+.disaster-details ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.disaster-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Additional Info Section */
+.additional-info {
+    margin-top: 40px;
+}
+
+.additional-info h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #d0b200;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.additional-info p,
+.additional-info ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.additional-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.additional-info a {
+    color: #d0b200;
+    text-decoration: none;
+}
+
+.additional-info a:hover {
+    text-decoration: underline;
+}
+
+/* flood details */
+/* Section Heading Style */
+.section-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Disaster Details */
+.disaster-details h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.disaster-details p,
+.disaster-details ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.disaster-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Additional Info Section */
+.additional-info {
+    margin-top: 40px;
+}
+
+.additional-info h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.additional-info p,
+.additional-info ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.additional-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.additional-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.additional-info a:hover {
+    text-decoration: underline;
+}
+.section-heading {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form-group label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.live-disasters ul {
+    padding-left: 0;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding: 15px;
+}
+
+/* Know More Section Styling */
+#know-more-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+#know-more-section h2, #features-section h2 {
+    color: #003366;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#know-more-section p, #features-section p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#know-more-section ul, #features-section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#features-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+#features-section h4 {
+    color: #d0b200;
+    font-size: 24px;
+}
+
+#features-section p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #003366;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
