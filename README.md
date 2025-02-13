@@ -1,6 +1,3 @@
-Here's your **GitHub README** file with improved styling and the correct GitHub link:  
-
-```markdown
 # 🌍 Disaster Management Website  
 
 ## 📌 Overview  
